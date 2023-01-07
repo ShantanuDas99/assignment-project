@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: "Nunito Sans", sans-serif;
 }
 /* banner styles */
 .banner {
@@ -7,11 +8,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: right;
-  padding-top: 300px;
-  padding-right: 200px;
-  height: 700px;
+  padding-top: 250px;
+  padding-right: 300px;
+  height: 750px;
+}
+.banner-title {
+  font-size: 75px;
+  font-weight: 900;
 }
 .subtitle {
+  color: darkmagenta;
+  font-size: 18px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -49,6 +56,11 @@ main {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+/* inspiration styles */
+.inspiration {
+  display: flex;
+  align-items: center;
 }
 /* mindset styles */
 .mindset {
