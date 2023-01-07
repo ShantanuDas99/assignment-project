@@ -20,29 +20,42 @@
   color: darkmagenta;
   font-size: 18px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 .btn-primary {
   border: 0;
   border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
   color: #fff;
-  padding: 20px 25px;
+  padding: 18px 32px;
   background-color: orangered;
 }
 /* main styles */
 /* failure styles */
 main {
   /* max-width: 1000px; */
-  margin: 0 400px;
+  margin: 100px 300px;
+}
+.title-primary {
+  font-size: 50px;
+  font-weight: 800;
 }
 .failure {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
 }
 .description {
   margin-top: 40px;
   margin-bottom: 20px;
+}
+.description-primary {
+  color: darkmagenta;
+  font-size: 18px;
+}
+.details li {
+  list-style-image: url(images/icons/check-solid.svg);
 }
 /* my plans styles */
 .my-plans {
