@@ -32,15 +32,19 @@
   background-color: orangered;
 }
 /* main styles */
-/* failure styles */
+
 main {
-  /* max-width: 1000px; */
-  margin: 100px 300px;
+  padding: 100px 300px;
 }
 .title-primary {
   font-size: 50px;
   font-weight: 800;
 }
+.description-primary {
+  color: darkmagenta;
+  font-size: 18px;
+}
+/* failure styles */
 .failure {
   display: flex;
   align-items: center;
@@ -50,40 +54,72 @@ main {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.description-primary {
-  color: darkmagenta;
-  font-size: 18px;
-}
 .details li {
   list-style-image: url(images/icons/check-solid.svg);
 }
 /* my plans styles */
 .my-plans {
   text-align: center;
+  margin-bottom: 200px;
 }
 .my-plans h1 {
   margin-top: 200px;
   margin-bottom: 70px;
 }
+.my-plans h3 {
+  font-size: 34px;
+  font-weight: 900;
+}
+.my-plans p {
+  color: darkgray;
+  font-size: 30px;
+  font-weight: 600;
+}
 .my-plans-items {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 97px;
 }
 /* inspiration styles */
 .inspiration {
   display: flex;
   align-items: center;
+  gap: 40px;
+  margin-bottom: 200px;
+}
+.inspiration p {
+  color: darkgrey;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.jhankarsir {
+  text-align: center;
 }
 /* mindset styles */
 .mindset {
+  height: 250px;
+  color: #fff;
   background-image: url(images/gradient1.png), url(images/watch.png);
-  padding: 40px 40px;
-  margin: 40px 0;
+  padding: 50px 65px;
+  border-radius: 10px;
+  background-size: cover;
 }
+
 /* footer styles */
 footer {
   color: #fff;
   display: flex;
+  gap: 280px;
+  padding: 150px 300px;
   background-color: black;
+}
+footer input {
+  color: #fff;
+  width: 260px;
+  padding: 20px 20px;
+  background-color: black;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
